@@ -1,9 +1,9 @@
 
-"dependencies"; {
-  "next"; "latest"
-  "react"; "latest"
-  "react-dom"; "latest"
-}
+// "dependencies"; {
+//   "next"; "latest"
+//   "react"; "latest"
+//   "react-dom"; "latest"
+// }
 
 
 
