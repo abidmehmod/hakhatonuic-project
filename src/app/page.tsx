@@ -1,17 +1,22 @@
-import Desing from "./component/Desing";
-import Footer from "./component/Footer";
-import Navbar from "./component/Navbar";
 
-
-export default function Home() {
-  return (
-   <div>
-    
-    <Desing />
-    
-    </div>
-
-    
-    
-  );
+"dependencies"; {
+  "next"; "latest"
+  "react"; "latest"
+  "react-dom"; "latest"
 }
+
+
+
+
+import React from 'react'
+import HomePage from './HomePage/page'
+
+const Home = () => {
+  return (
+    <div>
+    <HomePage />
+    </div>
+  )
+}
+
+export default Home

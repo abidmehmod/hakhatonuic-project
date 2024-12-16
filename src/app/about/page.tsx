@@ -1,8 +1,14 @@
-export default function About(){
-    return(
-        <div>
-            
-        </div>
-    )
+import React from 'react'
+import Hero from "./Hero"
+import AboutUs from "./AboutUs"
+
+const About = () => {
+  return (
+    <div>
+      <Hero />
+      <AboutUs />
+    </div>
+  )
 }
-        
+
+export default About
